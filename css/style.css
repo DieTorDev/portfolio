@@ -194,6 +194,12 @@ body{
     user-select: none;
 }
 
+    @media (min-width: 576px) {
+        .knowledge-icon-container{
+           gap: 64px;
+        }
+    }
+
 .knowledge-icon{
     width: 64px;
     margin: auto;
